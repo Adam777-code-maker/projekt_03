@@ -16,7 +16,7 @@ SPUŠTĚNÍ PROJEKTU
 -----------------
 1. Spouštění souboru "python elections_scraper.py" v rámci příkazového řádku, požaduje dva povinné argumenty:
 2. Zadání URL pro scraping, např.: "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7202"
-3. Zadání názvu souboru, do kterého budou vyscrapovány výsledky. Pozor, za názvem souboru je potřeba zadat příponu ".csv", tedy např.: "vysledky_UH.csv".
+3. Zadání názvu souboru, do kterého budou vyscrapovány výsledky. Pozor, za názvem souboru je potřeba zadat příponu ".csv", tedy např.: "vysledky_uh.csv".
 
 Následně se Vám stáhnou výsledky, jako soubor s příponou .csv.
 
@@ -24,7 +24,7 @@ UKÁZKA PROJEKTU
 ---------------
 Výsledky hlasování pro okres Uherské Hradiště:
 
-python elections_scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7202" vysledky_UH.csv
+python elections_scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7202" vysledky_uh.csv
 
 Průbeh stahování:
 -----------------
