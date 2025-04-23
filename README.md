@@ -24,32 +24,33 @@ UKÁZKA PROJEKTU
 ---------------
 Výsledky hlasování pro okres Uherské Hradiště:
 
-1. argument: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7202
-2. argument: vysledky_UH.csv
+python elections_scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7202" vysledky.csv
 
 Průbeh stahování:
 -----------------
-Zadejte URL pro scraping: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7202
-💾 Zadejte název výstupního CSV souboru (např. vysledky.csv): vysledky_UH.csv
+Zpracovavam obec: Babice (kod: 592013)
+Zpracovavam obec: Bánov (kod: 592021)
+Zpracovavam obec: Bílovice (kod: 592030)
+Zpracovavam obec: Bojkovice (kod: 592048)
+Zpracovavam obec: Boršice (kod: 592064)
+.
+.
+.
+Zpracovavam obec: Vyškovec (kod: 592838)
+Zpracovavam obec: Záhorovice (kod: 592846)
+Zpracovavam obec: Zlámanec (kod: 592854)
+Zpracovavam obec: Zlechov (kod: 592862)
+Zpracovavam obec: Žítková (kod: 592871)
 
-📌 Zpracovávám data z URL: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7202
-📍 Zpracovávám obec: Babice (kód: 592013)
-📍 Zpracovávám obec: Bánov (kód: 592021)
-📍 Zpracovávám obec: Bílovice (kód: 592030)
-📍 Zpracovávám obec: Bojkovice (kód: 592048)
-📍 Zpracovávám obec: Boršice (kód: 592064)
-.
-.
-.
-
-Výsledky byly úspěšně uloženy do souboru vysledky_UH.csv
+Hotovo! Data ulozena v souboru vysledky_uh.csv
 
 ČÁSTEČNÝ VÝSTUP
 ---------------
-kód	obec	registrovaní	obálky	platné	Občanská demokratická strana	Řád národa - Vlastenecká unie	CESTA ODPOVĚDNÉ SPOLEČNOSTI	Česká str.sociálně demokrat.	Radostné Česko	STAROSTOVÉ A NEZÁVISLÍ	Komunistická str.Čech a Moravy
-592013	Babice	1452	873	866	79	0	0	60	0	55	66
-592021	Bánov	1707	1070	1063	92	2	1	75	0	117	62
-592030	Bílovice	1473	1018	1008	98	0	0	67	1	66	80
-592048	Bojkovice	3635	2183	2170	290	6	0	165	1	79	225
-592064	Boršice	1788	1141	1131	103	0	0	74	1	61	136
+kod	obec	registrovani	obalky	platne	Občanská demokratická strana	Řád národa - Vlastenecká unie	CESTA ODPOVĚDNÉ SPOLEČNOSTI	Česká str.sociálně demokrat.	Radostné Česko	STAROSTOVÉ A NEZÁVISLÍ	Komunistická str.Čech a Moravy	Strana zelených	ROZUMNÍ-stop migraci,diktát.EU	Strana svobodných občanů	Blok proti islam.-Obran.domova	Občanská demokratická aliance	Česká pirátská strana	Referendum o Evropské unii	TOP 09	ANO 2011	Dobrá volba 2016	SPR-Republ.str.Čsl. M.Sládka	Křesť.demokr.unie-Čs.str.lid.	REALISTÉ	SPORTOVCI	Dělnic.str.sociální spravedl.	Svob.a př.dem.-T.Okamura (SPD)	Strana Práv Občanů
+592013	Babice	1452	873	866	79	0	0	60	0	55	66	5	6	3	0	2	74	0	23	254	1	0	95	5	1	0	133	4
+592021	Bánov	1707	1070	1063	92	2	1	75	0	117	62	10	1	11	1	2	71	1	11	293	1	0	148	6	0	0	156	2
+592030	Bílovice	1473	1018	1008	98	0	0	67	1	66	80	10	5	14	0	1	90	0	28	264	0	2	147	4	3	1	92	35
+592048	Bojkovice	3635	2183	2170	290	6	0	165	1	79	225	23	7	20	1	1	134	4	37	612	0	3	208	16	1	3	322	12
+592064	Boršice	1788	1141	1131	103	0	0	74	1	61	136	14	3	14	0	0	95	0	33	279	2	0	199	4	1	1	108	3
+592056	Boršice u Blatnice	660	407	404	49	0	0	24	0	13	59	1	3	8	0	0	25	1	9	95	0	2	73	1	1	0	39	1
 
