@@ -24,7 +24,7 @@ UKÁZKA PROJEKTU
 ---------------
 Výsledky hlasování pro okres Uherské Hradiště:
 
-python elections_scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7202" vysledky.csv
+python elections_scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7202" vysledky_UH.csv
 
 Průbeh stahování:
 -----------------
